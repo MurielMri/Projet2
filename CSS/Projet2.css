@@ -1,5 +1,5 @@
 body {
-    background: radial-gradient(#4BD4F2, #307CBF) fixed;
+    background: radial-gradient(#1747A6, #011126) fixed;
 }
 
 .Head {
@@ -62,5 +62,201 @@ body {
 
 .menu {
     overflow: hidden;
-    background-color: ;
+    background-color: black;
 }
+
+.menu a {
+    float: left;
+    font-size: 16px;
+    color: #1C618C;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.first {
+    float: left;
+    overflow: hidden;
+}
+
+.first,
+.firsty {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.menu a:hover,
+.first:hover .firsty {
+    background-color: #1747A6;
+}
+
+.first-content {
+    display: none;
+    position: absolute;
+    background-color: #165873;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.first-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.first-content a:hover {
+    background-color: #ddd;
+}
+
+.first:hover .first-content {
+    display: block;
+}
+
+
+/*Fin Div1*/
+
+
+/*Div2*/
+
+.menu2 {
+    overflow: hidden;
+    background-color: black;
+}
+
+.menu2 a {
+    float: left;
+    font-size: 16px;
+    color: #1C618C;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.second {
+    float: left;
+    overflow: hidden;
+}
+
+.second,
+.secondy {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.menu2 a:hover,
+.second:hover .secondy {
+    background-color: #1747A6;
+}
+
+.second-content {
+    display: none;
+    position: absolute;
+    background-color: #165873;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.second-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.second-content a:hover {
+    background-color: #ddd;
+}
+
+.second:hover .second-content {
+    display: block;
+}
+
+
+/*Fin Div2*/
+
+
+/*Div3*/
+
+.menu3 {
+    overflow: hidden;
+    background-color: black;
+}
+
+.menu3 a {
+    float: left;
+    font-size: 16px;
+    color: #1C618C;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.third {
+    float: left;
+    overflow: hidden;
+}
+
+.third,
+.thirdy {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.menu3 a:hover,
+.third:hover .thirdy {
+    background-color: #1747A6;
+}
+
+.third-content {
+    display: none;
+    position: absolute;
+    background-color: #165873;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.third-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.third-content a:hover {
+    background-color: #ddd;
+}
+
+.third:hover .third-content {
+    display: block
+}
+
+
+/*Fin Div3*/
