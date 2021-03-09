@@ -1,5 +1,10 @@
 body {
-    background: radial-gradient(#1747A6, #011126) fixed;
+    background: radial-gradient(#3873A6, #161C40) fixed;
+}
+
+h1 {
+    color: #C729F2;
+    text-align: center;
 }
 
 .Head {
@@ -7,15 +12,6 @@ body {
     height: 2em;
     border: 3px solid;
     border-color: brown;
-}
-
-.slides {
-    width: 70%;
-    height: 9em;
-    border: 3px solid;
-    border-color: darkgoldenrod;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .Body {
@@ -70,7 +66,7 @@ body {
     font-size: 16px;
     color: #1C618C;
     text-align: center;
-    padding: 14px 16px;
+    padding: 4px 6px;
     text-decoration: none;
 }
 
@@ -85,7 +81,7 @@ body {
     border: none;
     outline: none;
     color: #ffffff;
-    padding: 14px 16px;
+    padding: 4px 6px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
@@ -138,7 +134,7 @@ body {
     font-size: 16px;
     color: #1C618C;
     text-align: center;
-    padding: 14px 16px;
+    padding: 4px 6px;
     text-decoration: none;
 }
 
@@ -153,7 +149,7 @@ body {
     border: none;
     outline: none;
     color: white;
-    padding: 14px 16px;
+    padding: 4px 6px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
@@ -206,7 +202,7 @@ body {
     font-size: 16px;
     color: #1C618C;
     text-align: center;
-    padding: 14px 16px;
+    padding: 4px 6px;
     text-decoration: none;
 }
 
@@ -221,7 +217,7 @@ body {
     border: none;
     outline: none;
     color: #ffffff;
-    padding: 14px 16px;
+    padding: 4px 6px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
