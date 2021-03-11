@@ -15,6 +15,7 @@ h1 {
 }
 
 .slides {
+<<<<<<< HEAD
     width: auto;
     height: 10%;
     margin-left: auto;
@@ -67,19 +68,30 @@ h1 {
 .Justdance {
     width: 100%;
     height: auto;
+=======
+    width: 70%;
+    height: 10em;
+>>>>>>> 4cf6dc155c06edfdf34e110ec3a3b017175c826f
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
 
+<<<<<<< HEAD
 .wrc9 {
     width: 100%;
     height: auto;
+=======
+.container {
+    width: 70%;
+    height: 10em;
+>>>>>>> 4cf6dc155c06edfdf34e110ec3a3b017175c826f
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
 
+<<<<<<< HEAD
 .zelda {
     width: 100%;
     height: auto;
@@ -102,6 +114,24 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     display: block;
+=======
+
+/*images*/
+
+.Doom {
+    width: 100%;
+    height: auto;
+}
+
+.Warface {
+    width: 100%;
+    height: auto;
+}
+
+.Halo {
+    width: 100%;
+    height: auto;
+>>>>>>> 4cf6dc155c06edfdf34e110ec3a3b017175c826f
 }
 
 
@@ -348,6 +378,7 @@ h1 {
 }
 
 
+<<<<<<< HEAD
 /*Fin Div3*/
 
 
@@ -417,3 +448,6 @@ h1 {
 
 
 /*Fin Div4*/
+=======
+/*Fin Div3*/
+>>>>>>> 4cf6dc155c06edfdf34e110ec3a3b017175c826f
