@@ -1,8 +1,7 @@
-<!DOCTYPE html>
+<!Doctype html>
 <html lang="fr">
-
-<head>
-    <title>Projet 2</title>
+ <head>
+ <title>Projet 2</title>
     <meta charset="utf-8">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
@@ -13,10 +12,10 @@
     <!--Bootstrap version 4.3 pas à jour-->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <!--Bootstrap version 4.3 pas à jour-->
-</head>
-
-<body>
-    <h1>Jeux vidéos</h1>
+ </head>
+ <body>
+ <?php echo '<p>Bonjour le monde</p>'; ?>
+ <h1>Jeux vidéos</h1>
     <div class="MenuDeroulant">
         <div id="menu">
             <div class="first">
@@ -74,13 +73,13 @@
     <div class="recherche">
         <form>
             <div>
-                <button class="Espace">
-                    <a href="espaceperso.html">Mon espace</a></button>
                 <input type="search" id="maRecherche" name="q" placeholder="Rechercher sur le site…">
                 <button>Rechercher</button>
             </div>
         </form>
     </div>
+    <button class="Espace">
+            <a href="espaceperso.html">Mon espace</a></button>
     <!--Slide carrousel essaie -->
     <div class="slides">
         <Div class="container">
@@ -168,6 +167,6 @@
     <Div class="footer">
 
     </Div>
-</body>
+ </body>
 
 </html>

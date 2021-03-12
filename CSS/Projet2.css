@@ -1,10 +1,17 @@
 body {
     background: radial-gradient(#3873A6, #161C40) fixed;
+    color: #ffffff;
 }
 
 h1 {
     color: #C729F2;
     text-align: center;
+}
+
+h4 {
+    color: #1BF2CB;
+    text-align: left;
+    margin-left: 1%;
 }
 
 .Head {
@@ -14,8 +21,10 @@ h1 {
     border-color: brown;
 }
 
+
+/*Slide page d'accueil*/
+
 .slides {
-<<<<<<< HEAD
     width: auto;
     height: 10%;
     margin-left: auto;
@@ -32,7 +41,61 @@ h1 {
 }
 
 
-/*images pour slides*/
+/*Fin slide pour page d'accueil*/
+
+
+/*Slides page suivante*/
+
+.slides2 {
+    width: 60%;
+    height: 30%;
+    margin-left: 2%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container2 {
+    width: 60%;
+    height: 30%;
+    margin-left: 2%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*Fin slides pages suivantes*/
+
+
+/*Articles*/
+
+.Articles {
+    width: 100%;
+    height: 40%;
+    display: inline-flex;
+    margin-left: 1%;
+    float: left;
+    border: 1px solid black;
+}
+
+.textes {
+    width: 70%;
+    height: 40%;
+    margin-left: 2%;
+    display: inline-flex;
+}
+
+.images {
+    width: 20%;
+    height: 10%;
+}
+
+
+/*Fin slide articles*/
+
+
+/*images pour slides page d'accuei*/
 
 .ChainedEchoes {
     width: 100%;
@@ -68,30 +131,19 @@ h1 {
 .Justdance {
     width: 100%;
     height: auto;
-=======
-    width: 70%;
-    height: 10em;
->>>>>>> 4cf6dc155c06edfdf34e110ec3a3b017175c826f
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
 
-<<<<<<< HEAD
 .wrc9 {
     width: 100%;
     height: auto;
-=======
-.container {
-    width: 70%;
-    height: 10em;
->>>>>>> 4cf6dc155c06edfdf34e110ec3a3b017175c826f
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
 
-<<<<<<< HEAD
 .zelda {
     width: 100%;
     height: auto;
@@ -114,24 +166,14 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     display: block;
-=======
-
-/*images*/
-
-.Doom {
-    width: 100%;
-    height: auto;
 }
 
-.Warface {
+.Captain {
     width: 100%;
     height: auto;
-}
-
-.Halo {
-    width: 100%;
-    height: auto;
->>>>>>> 4cf6dc155c06edfdf34e110ec3a3b017175c826f
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 
@@ -378,7 +420,6 @@ h1 {
 }
 
 
-<<<<<<< HEAD
 /*Fin Div3*/
 
 
@@ -448,6 +489,12 @@ h1 {
 
 
 /*Fin Div4*/
-=======
-/*Fin Div3*/
->>>>>>> 4cf6dc155c06edfdf34e110ec3a3b017175c826f
+
+
+/*Button search*/
+
+.recherche {
+    display: inline-flex;
+    float: right;
+    font-size: 16px;
+}
